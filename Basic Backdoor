@@ -43,5 +43,5 @@ class SocketListener:
             command_output= self.command_execute(command_input)
             print(command_output)
 
-my_listener=SocketListener("10.0.2.10",8080)
+my_listener=SocketListener("10.0.2.10",8080)  #the address of my virtual machine
 my_listener.started_listener()
